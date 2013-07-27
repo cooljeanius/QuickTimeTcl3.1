@@ -5,3 +5,4 @@ config.h
 Makefile
 confdefs*
 conftest*
+build/*
