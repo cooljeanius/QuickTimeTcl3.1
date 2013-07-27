@@ -7,7 +7,7 @@ QuickTimeTcl is an extension to Tcl/Tk on Mac OS X and Windows that provides man
 
 For more documentation, see the manual pages in the '`docs`' folder. These contain the latest information. There are also some simple tcl example code in the '`ExampleCode`' folder that can be helpful; just source them in.
 
-Requirements:
+**Requirements:**
 
 Tcl/Tk 8.4 (8.4.4 on Mac OS X) and QuickTime 5 or higher.
 
@@ -69,14 +69,15 @@ This software is distributed under the BSD license. c.f. [http://www.opensource.
     
 
 **Acknowledgements:**
+
 Bruce O'Neel made the original version of QuickTimeTcl; The Windows port contains some tiny code fragments from Steve Aronson.
 
 Enjoy, Mats Bengtsson
 
 matben@privat.utfors.se
 
-Hamngatan 21
-SE-582 26  Linkoping
-Sweden
+    Hamngatan 21
+    SE-582 26  Linkoping
+    Sweden
 
  Copyright 1998 Bruce O'Neel, Copyright 2000-2003 Mats Bengtsson
