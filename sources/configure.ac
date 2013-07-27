@@ -23,7 +23,7 @@ AC_PATH_XTRA
 AC_CHECK_HEADERS([AERegistry.h AE/AERegistry.h Carbon/Carbon.h cssmconfig.h \
                   fcntl.h HIToolbox/Dialogs.h limits.h QD/QuickdrawTypes.h \
                   QuickTime/QuickTime.h stddef.h stdio.h sys/file.h sys/time.h \
-                  Tcl/tcl.h Tk/Tk.h Tk/tkInt.h])
+                  Tcl/tcl.h Tk/Tk.h Tk/tkInt.h X.h])
 
 # Checks for typedefs, structures, and compiler characteristics.
 AC_C_PROTOTYPES
