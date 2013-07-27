@@ -1,0 +1,5 @@
+stamp-h*
+config.h
+*/CVS/*
+*/*/CVS/*
+Makefile

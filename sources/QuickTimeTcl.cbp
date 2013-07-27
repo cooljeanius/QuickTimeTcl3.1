@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tclqt" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="QuickTimeTcl3.1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DUSE_TCL_STUBS" />
+					<Add option="-DUSE_TK_STUBS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+				</Compiler>
+				<Linker>
+					<Add library="tclstub84" />
+					<Add library="tkstub84" />
+					<Add library="qtmlclient" />
+					<Add library="QTVR" />
+					<Add library="msvcrt" />
+				</Linker>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="Release/QuickTimeTcl3.1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-DWIN32" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-DUSE_TCL_STUBS" />
+					<Add option="-DUSE_TK_STUBS" />
+					<Add option="-W" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add library="qtmlclient" />
+					<Add library="QTVR" />
+					<Add library="tclstub84" />
+					<Add library="tkstub84" />
+					<Add library="msvcrt" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="EffectCommand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ExportCommand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MacPorted.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MatsUtils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MatsUtils.h" />
+		<Unit filename="MovieCallBack.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MoviePlayer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MoviePlayer.h" />
+		<Unit filename="MovieQTVRUtils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="MovieUtils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="QuickTimeTcl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="QuickTimeTcl.h" />
+		<Unit filename="QuickTimeTclWin.h" />
+		<Unit filename="SeqGrabber.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Tfp_Arrays.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Tfp_Arrays.h" />
+		<Unit filename="TimeCode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="TracksCommand.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="UserData.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

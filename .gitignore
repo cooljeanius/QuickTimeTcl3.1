@@ -1,0 +1,12 @@
+*.cache
+*.build
+*~
+*.o
+*.log
+*.status
+*.pbxuser
+*.perspectivev3
+*DS_Store*
+*/CVS/*
+*/*/CVS/*
+*.layout
