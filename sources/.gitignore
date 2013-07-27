@@ -3,3 +3,5 @@ config.h
 */CVS/*
 */*/CVS/*
 Makefile
+confdefs*
+conftest*

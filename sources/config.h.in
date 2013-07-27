@@ -1,5 +1,8 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
+/* Define to 1 if you have the <AERegistry.h> header file. */
+#undef HAVE_AEREGISTRY_H
+
 /* Define to 1 if you have the <AE/AERegistry.h> header file. */
 #undef HAVE_AE_AEREGISTRY_H
 
