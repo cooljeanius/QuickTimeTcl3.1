@@ -4,6 +4,7 @@ dnl# Process this file with autoconf to produce a configure script.
 AC_PREREQ([2.69])
 AC_INIT([QuickTimeTcl],[3.1],[matben@privat.utfors.se])
 AC_CONFIG_SRCDIR([Broadcast.c])
+AC_CONFIG_AUX_DIR([build-aux])
 AC_CONFIG_HEADERS([config.h])
 AM_INIT_AUTOMAKE([foreign 1.11 no-installinfo dejagnu])
 AM_MAINTAINER_MODE
